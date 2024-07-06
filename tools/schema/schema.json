@@ -1,0 +1,30 @@
+{
+  "breach.mysql": {
+    "transaction": true,
+    "partition-key": [
+      "id"
+    ],
+    "clustering-key": [],
+    "columns": {
+      "id": "TEXT",
+      "name": "TEXT",
+      "email": "TEXT",
+      "creditcard": "INT"
+    }
+  },
+  "breach.cassandra": {
+    "transaction": true,
+    "partition-key": [
+      "id"
+    ],
+    "clustering-key": [],
+    "columns": {
+      "id": "TEXT",
+      "name": "TEXT",
+      "address": "TEXT"
+    }
+  }
+}
+
+
+

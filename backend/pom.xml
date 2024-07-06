@@ -41,6 +41,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.scalar-labs</groupId>
+            <artifactId>scalardb</artifactId>
+            <version>3.12.3</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -61,3 +66,4 @@
     </build>
 
 </project>
+
